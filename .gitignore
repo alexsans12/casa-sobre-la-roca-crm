@@ -1,0 +1,30 @@
+# Ignorar el directorio de dependencias de Composer
+/vendor/
+
+# Ignorar el archivo de bloqueo de Composer (depende del proyecto, algunos lo incluyen)
+# /composer.lock
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos generados por IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignorar archivos temporales y de caché
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+
+# Ignorar directorios específicos que pueden contener archivos generados
+/cache/
+/logs/
+/sessions/
+
+# Ignorar archivos de configuración específicos del proyecto
+/config.php
